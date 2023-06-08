@@ -1,0 +1,32 @@
+/* Body theme */
+$body-color: #202020;
+
+/* Gradient */
+$gradient-start-color: #393c43;
+$gradient-end-color: #222222;
+
+$gradient-start-color-secondary: #01a1eb;
+$gradient-end-color-secondary: #222222;
+
+/* h 1 2 3 4 5 6 */
+$primary-color: #01a1eb;
+
+/* a p l */
+$secondary-color: #ffffff;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+$pointer-color: #222222;
+$text-color: #8a8a8a;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+  background-image: linear-gradient(
+    to left,
+    $gradient-start-color,
+    $gradient-end-color
+  );
+}

@@ -1,0 +1,13 @@
+@import "../css/color-theme/theme.scss";
+
+.footer {
+  margin-top: 300px;
+  justify-content: center;
+  padding: 15px 0px 10px 0px;
+  z-index: 9999;
+  background-image: linear-gradient(
+    to left,
+    $gradient-start-color-secondary,
+    $gradient-end-color-secondary
+  );
+}

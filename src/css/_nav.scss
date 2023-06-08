@@ -1,0 +1,79 @@
+@import "../css/color-theme/theme.scss";
+
+.icon {
+  display: none;
+}
+
+.nav-footer {
+  background-image: linear-gradient(
+    to left,
+    $gradient-start-color-secondary,
+    $gradient-end-color-secondary
+  );
+}
+
+.company-name {
+  margin-right: auto;
+}
+
+.nav {
+  z-index: 9999;
+  justify-content: center;
+  padding: 15px 0px 10px 0px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 50px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+/* Mobile-pad Nav Component */
+
+@media (max-width: 767px) {
+  .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav ul {
+    justify-content: space-around;
+  }
+  .nav li {
+    text-align: center;
+    margin: 0 30px;
+  }
+
+  .company-name {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+
+  .nav {
+    z-index: 9999;
+    padding: 7px 0px 4px 0px;
+    background-image: linear-gradient(
+      to left,
+      $gradient-start-color-secondary,
+      $gradient-end-color-secondary
+    );
+  }
+}
+//   .nav li {
+//     margin: 0;
+//     padding-left: 18px;
+//     padding-right: 18px;
+//   }
+// }

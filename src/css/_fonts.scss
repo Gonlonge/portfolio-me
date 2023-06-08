@@ -1,0 +1,46 @@
+@import "../css/color-theme/theme";
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: $secondary-color;
+  font-family: "arvo";
+}
+
+.header-text {
+  font-family: "arvo";
+}
+
+h3 {
+  color: $primary-color;
+  font-family: "lora";
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+p {
+  color: $secondary-color;
+  font-family: "montserrat", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+li {
+  color: $secondary-color;
+  font-family: "montserrat", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: $secondary-color;
+  font-family: "montserrat", sans-serif, Arial, Helvetica, sans-serif;
+
+  &:hover {
+    text-decoration: underline;
+    color: $pointer-color;
+    transition: color 0.7s;
+  }
+}
+
+.tinted-color {
+  color: $text-color;
+}
