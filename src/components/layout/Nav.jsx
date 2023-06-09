@@ -15,25 +15,38 @@ export default function Nav() {
 
         <li className=" margin-top-small smaller-font-size">
           <div>
-            <img src={home} alt="" className="icon-navbar-item " />
+            <Link to="/">
+              {" "}
+              <img src={home} alt="" className="icon-navbar-item " />
+            </Link>
+            <div>
+              <Link to="/">Portfolio</Link>
+            </div>
           </div>
-          <Link to="/">Portfolio</Link>
         </li>
         <li className=" margin-top-small smaller-font-size">
           <div>
-            {" "}
-            <img src={cv} alt="" className="icon-navbar-item " />
+            <Link to="/About">
+              <img src={cv} alt="" className="icon-navbar-item " />
+            </Link>
           </div>
-
-          <Link to="/About">About</Link>
+          <div>
+            {" "}
+            <Link to="/About">About</Link>
+          </div>
         </li>
         <li className="margin-top-small smaller-font-size">
           <div>
             {" "}
-            <img src={contact} alt="" className="icon-navbar-item " />
+            <Link to="/Contact">
+              {" "}
+              <img src={contact} alt="" className="icon-navbar-item " />
+            </Link>{" "}
           </div>
-
-          <Link to="/Contact">Contact</Link>
+          <div>
+            {" "}
+            <Link to="/Contact">Contact</Link>
+          </div>
         </li>
       </nav>
     </div>

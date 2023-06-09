@@ -20,8 +20,16 @@
   height: 10%;
 }
 
-.icon-navbar-item {
-  width: 14px;
-  height: auto;
-  filter: brightness(0) invert(1);
+@media (min-width: 767px) {
+  .icon-navbar-item {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .icon-navbar-item {
+    width: 14px;
+    height: auto;
+    filter: brightness(0) invert(1);
+  }
 }
