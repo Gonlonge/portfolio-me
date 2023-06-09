@@ -9,17 +9,16 @@ export default function Nav() {
             G.L
           </Link>
         </h1>
-        <ul>
-          <li className=" margin-top-small">
-            <Link to="/">Portfolio</Link>
-          </li>
-          <li className=" margin-top-small">
-            <Link to="/About">About</Link>
-          </li>
-          <li className=" margin-top-small">
-            <Link to="/Contact">Contact</Link>
-          </li>
-        </ul>
+
+        <li className=" margin-top-small smaller-font-size">
+          <Link to="/">Portfolio</Link>
+        </li>
+        <li className=" margin-top-small smaller-font-size">
+          <Link to="/About">About</Link>
+        </li>
+        <li className="margin-top-small smaller-font-size">
+          <Link to="/Contact">Contact</Link>
+        </li>
       </nav>
     </div>
   );

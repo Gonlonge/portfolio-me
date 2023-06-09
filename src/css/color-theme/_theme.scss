@@ -3,10 +3,10 @@ $body-color: #202020;
 
 /* Gradient */
 $gradient-start-color: #393c43;
-$gradient-end-color: #222222;
+$gradient-end-color: #202020;
 
 $gradient-start-color-secondary: #01a1eb;
-$gradient-end-color-secondary: #222222;
+$gradient-end-color-secondary: #000000;
 
 /* h 1 2 3 4 5 6 */
 $primary-color: #01a1eb;
@@ -30,3 +30,7 @@ body {
     $gradient-end-color
   );
 }
+
+// background-color: #202020;
+// background-image: linear-gradient(to left, #393c43, #222222);
+// }
