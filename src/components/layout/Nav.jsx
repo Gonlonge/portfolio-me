@@ -14,7 +14,7 @@ export default function Nav() {
             <Link to="/">Portfolio</Link>
           </li>
           <li className=" margin-top-small">
-            <Link to="/About">About Me</Link>
+            <Link to="/About">About</Link>
           </li>
           <li className=" margin-top-small">
             <Link to="/Contact">Contact</Link>
