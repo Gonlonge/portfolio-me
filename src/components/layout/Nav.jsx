@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import home from "../../images/web.png";
 import cv from "../../images/person.png";
-import contact from "../../images/mail.png";
+import contact from "../../images/message.png";
 
 export default function Nav() {
   return (
