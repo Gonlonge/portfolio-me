@@ -9,6 +9,8 @@ function FrontendCv() {
         <div className="col-md-6 mt-5">
           <div>
             <h4>Work</h4>
+            <h3>Coordinator</h3>
+            <p>NorSea AS - 06.2022 - Current Position</p>
             <h3>Junior Frontend Developer</h3>
             <p>Felo AS - 06.2022 - 08.2022</p>
           </div>
@@ -19,10 +21,9 @@ function FrontendCv() {
             <h4>Education</h4>
             <h3>Frontend Developer student</h3>
             <p>Noroff - 08.2021 - 06.2022</p>
-            <p>Noroff - 08.2021 - 09.2023</p>
-            <p>Grades A - C - B</p>
-            <p>Passed, waiting for the diploma to be delivered.</p>
-            <a href="../../images/current-grates.pdf" download>
+            <p>Noroff - 08.2021 - 06.2023</p>
+            <p>Grades A - A - B - C</p>
+            <a href="../../images/vitnemaal.png" download>
               <img src={grades} alt="" />
             </a>
           </div>
