@@ -1,5 +1,6 @@
 import React from "react";
 import grades from "../../images/grade-icon.png";
+import vitnemaal from "../../images/vitnemaal.png";
 
 function FrontendCv() {
   return (
@@ -23,8 +24,9 @@ function FrontendCv() {
             <p>Noroff - 08.2021 - 06.2022</p>
             <p>Noroff - 08.2021 - 06.2023</p>
             <p>Grades A - A - B - C</p>
-            <a href="../../images/vitnemaal.png" download>
-              <img src={grades} alt="" />
+
+            <a href={vitnemaal} download className="download-link">
+              <img src={grades} alt="Grades" className="grades-image" />
             </a>
           </div>
         </div>
